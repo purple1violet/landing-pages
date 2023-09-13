@@ -1,12 +1,11 @@
-html{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
-
-
 body {
-    font-family: Roboto, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display:flex;
     flex-direction: column;
-    margin:10px auto
+    margin:10px auto;
+    max-width: 1380px;
   }
+
 
 img {
     width: 400px;
@@ -17,7 +16,7 @@ img {
     width:200px;
     height: 200px;
     object-fit:cover;
-    border:6px solid grey;
+    border:6px solid rgb(199, 194, 194);
     border-radius: 25px;
 
 }
@@ -41,25 +40,31 @@ a{ text-decoration: none;
 nav a{
     padding:8px;
     min-width: fit-content;
-    color:#70717a
+    color:#56351e
 }
+
+h1{font-size: 58px;
+    font-weight: bolder;}
+
 h2 {text-align: center;
 font-size: 38px;
 font-weight: 700;}
+
+h1, h2{color:#2660a4}
 
 #about {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding:25px;
+    gap:10px;
     margin-top: 30px;
-    background-color: rgba(255, 166, 0, 0.322);
+    background-color: rgba(255, 229, 180, 0.322);
 }
 
-.main {padding:10px}
 
 button {
-    background-color: aliceblue;
+    background-color: #fffffe;
     padding: 6px 10px;
     border-radius: 30px;
     border:0.5px solid grey;
@@ -72,14 +77,14 @@ button {
     gap:52px;
     flex:1 1 auto;
     flex-wrap: wrap;
-    padding:25px;
-    background-color: rgba(255, 166, 0, 0.397);}
+    padding:60px;
+    background-color: #EDF7F6;}
 
 .info {text-align: center;
     max-width: 212px;
     border-radius: 25px;
-    padding:8px 10px;
-    background-color: azure;
+    padding:16px;
+    background-color: #fffffe;
 }
 
 .product{font-weight: 600;
@@ -107,18 +112,20 @@ font-size: 36px;}
     display:flex;
     justify-content: space-around;
     align-items: center;
-    padding:30px;
+    padding:10px 30px;
     margin:50px auto;
     flex-wrap: wrap;
     gap:90px;
     border-radius: 15px;
-    background-color: rgba(255, 166, 0, 0.397);}
+    background-color: #f6bd8e;}
 
 .topic {font-size: 25px;
 font-weight: 700;
 }
 
-.promotion {font-size: 18px;}
+.promotion {font-size: 15px;}
 
 .footer{background-color: #70717a;
-text-align: center;}
+text-align: center;
+color:#EDF7F6
+}
